@@ -1,0 +1,11 @@
+Posicion:  1   Nombre:  CABJ  Puntos:   52  
+ Posicion:  2   Nombre:  RAC  Puntos:   50  
+ Posicion:  3   Nombre:  CARP  Puntos:   47  
+ Posicion:  4   Nombre:  HUR  Puntos:   47  
+ Posicion:  5   Nombre:  CAT  Puntos:   46  
+ Posicion:  6   Nombre:  SL  Puntos:   43  
+ Posicion:  7   Nombre:  TIG  Puntos:   43  
+ Posicion:  8   Nombre:  ARGJ  Puntos:   42  
+ Posicion:  9   Nombre:  GLP  Puntos:   41  
+ Posicion:  10   Nombre:  CAP  Puntos:   40  
+ 
