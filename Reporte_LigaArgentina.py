@@ -12,21 +12,11 @@ class Reporte_LigaArgentina():
 
     def RegistrarEquipos(self):
         equipos = self.soup.find_all("abbr", tittle="")
-        posicion = self.soup.find_all("span", class_="team-position ml2 pr3")
         puntos = self.soup.find_all("span", class_="stat-cell")
         team = list()
-        pos = list()
         pt = list()
         flag = 0
         flag2 = 0
-
-        for e in posicion:
-            if flag == 10:
-                flag = 0
-                break
-            p = e.text
-            pos.append(int(p))
-            flag += 1
         
         for e in equipos:
             if flag == 10:
@@ -46,7 +36,7 @@ class Reporte_LigaArgentina():
                     break
 
         for i in range(10):
-            equipo = Equipo(pos[i],team[i], pt[i])
+            equipo = Equipo((i+1),team[i], pt[i])
             self.lista.append(equipo)
 
         return self.lista
@@ -54,15 +44,14 @@ class Reporte_LigaArgentina():
     def EscribirLosPrimeros10(self):
         try:
             lista = self.RegistrarEquipos()
-            nombre = os.path.join('C:\\Users\\Dieguillo\\WorkspacePython\\Webscrapping_Python' , "TablaDeCalificaciones.txt")
+            nombre = os.path.join('C:\\Users\\Dieguillo\\WorkspacePython\\Webscraping_Python' , "TablaDeCalificaciones.txt")
             with open(nombre, "w") as esc:
                 for l  in lista:
                  esc.write(str(l))
              
             esc.close()    
         except IOError:
-            print("Error " + IOError)    
-
+            print("Error")    
 
 
 
