@@ -38,9 +38,23 @@ https://github.com/DMAlmeyda/WebScraping_POO_TEST/blob/3252dfaec6645393ab7babe9a
 
 ### Class_Reporte_LigaArgentina
 
-Aqui es donde esta la funciones principales, como dijimos anteriormente solo queremos obtener dos cosas especificas, el nombre del equipo y sus puntos.
+Aqui es donde estan las funciones principales, como dijimos anteriormente solo queremos obtener dos cosas especificas, el nombre del equipo y sus puntos.
+
+![image](https://user-images.githubusercontent.com/108648799/208282414-631caebd-613f-47bb-9704-41a35f6fecbf.png)
+
+En este caso solo estamos interesados en extraer los 10 primeros en la tabla y no los 28 equipos.
+
+https://github.com/DMAlmeyda/WebScraping_POO_TEST/blob/cdd53fb1fc3a9691b3c0a604bbb2307a7cb3a18c/Reporte_LigaArgentina.py#L1-L54
+
+En el caso de los puntos como el html tenian los puntajes alojados a todos con el mismo nombre y bs4 no soporta xpath entonces como va en 8 y solo queremos el puntaje final con unas setencias se puede obtener especificamente lo que se busca.
 
 ### Class_Reporte_LigaArgentina_test
+
+En este caso se testea de una manera dinamica para ver incluso con el cambio de informacion que todo sigue funcionando como deberia 
+
+https://github.com/DMAlmeyda/WebScraping_POO_TEST/blob/cdd53fb1fc3a9691b3c0a604bbb2307a7cb3a18c/Reporte_LigaArgentina_test.py#L1-L32
+
+
 
 
 
