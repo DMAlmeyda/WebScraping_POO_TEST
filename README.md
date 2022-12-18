@@ -40,6 +40,8 @@ https://github.com/DMAlmeyda/WebScraping_POO_TEST/blob/3252dfaec6645393ab7babe9a
 
 Aqui es donde estan las funciones principales, como dijimos anteriormente solo queremos obtener dos cosas especificas, el nombre del equipo y sus puntos.
 
+Fecha(18/12/2022)
+
 ![image](https://user-images.githubusercontent.com/108648799/208282414-631caebd-613f-47bb-9704-41a35f6fecbf.png)
 
 En este caso solo estamos interesados en extraer los 10 primeros en la tabla y no los 28 equipos.
